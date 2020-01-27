@@ -1,18 +1,18 @@
 <template>
-  <div class="home">
+  <div class="thread">
     <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <ThreadShow msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '../components/HelloWorld.vue';
+import ThreadShow from '../components/ThreadShow.vue';
 
 export default {
-  name: 'home',
+  name: 'thread',
   components: {
-    HelloWorld
+    ThreadShow
   }
 };
 </script>

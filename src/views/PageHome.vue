@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="home">
     <h1>Welcome to the forum</h1>
     <ThreadList :threads="threads" />
     <!-- <ThreadList :threads="Object.values(threads)" /> -->
@@ -8,12 +8,11 @@
 
 <script>
 import sourceData from '@/data';
-import ThreadList from './ThreadList';
+import ThreadList from '@/components/ThreadList';
 console.log(sourceData);
 
 export default {
-  name: 'HelloWorld',
-
+  name: 'home',
   components: {
     ThreadList
   },

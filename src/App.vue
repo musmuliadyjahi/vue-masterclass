@@ -13,4 +13,7 @@
 
 <style>
 @import 'assets/css/style.css';
+#nav {
+  text-align: center;
+}
 </style>

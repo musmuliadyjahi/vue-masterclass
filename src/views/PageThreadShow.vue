@@ -41,7 +41,7 @@ import sourceData from '@/data';
 console.log(sourceData);
 
 export default {
-  // name: 'ThreadShow',
+  name: 'ThreadShow',
   props: {
     threads: {
       id: {

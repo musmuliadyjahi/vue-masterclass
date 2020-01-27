@@ -1,21 +1,26 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from '../views/Home.vue';
-import Thread from '../views/Thread.vue';
-
+import Home from '../views/PageHome.vue';
+import Thread from '../views/PageThreadShow.vue';
+import NotFound from '../views/PageNotFound.vue';
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: '/',
-    name: 'home',
+    name: 'Home',
     component: Home
   },
   {
     path: '/thread/:id',
-    name: 'thread',
+    name: 'Thread',
     component: Thread,
     props: true
+  },
+  {
+    path: '*',
+    name: 'NotFound',
+    component: NotFound
   },
   {
     path: '/about',

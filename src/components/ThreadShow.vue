@@ -38,9 +38,10 @@
 
 <script>
 import sourceData from '@/data';
+console.log(sourceData);
+
 export default {
-  // name: 'ThreadShow',
-  // data() {
+  name: 'ThreadShow',
   props: {
     id: {
       type: String,
@@ -56,5 +57,4 @@ export default {
   }
 };
 </script>
-
 <style></style>

@@ -41,11 +41,13 @@ import sourceData from '@/data';
 console.log(sourceData);
 
 export default {
-  name: 'ThreadShow',
+  // name: 'ThreadShow',
   props: {
-    id: {
-      type: String,
-      required: true
+    threads: {
+      id: {
+        type: String,
+        required: true
+      }
     }
   },
   data() {
